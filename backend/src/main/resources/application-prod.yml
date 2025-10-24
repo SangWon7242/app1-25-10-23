@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://sangwon7242-db.internal:5432/app_25_10_23
+    url: jdbc:postgresql://sangwon7242-db-2.internal:5432/app_25_10_24
     username: postgres
-    password:
+    password: 3HSW8bqz0wCQeXK
     driver-class-name: org.postgresql.Driver
     hikari:
       auto-commit: false
