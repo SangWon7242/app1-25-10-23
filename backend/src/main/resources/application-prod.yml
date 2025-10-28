@@ -3,7 +3,10 @@ spring:
     exclude:
   data:
     redis:
-      port: 6379
+      host: ${custom.prod.redis.host}
+      port: ${custom.prod.redis.port}
+      username: ${custom.prod.redis.username}
+      password: ${custom.prod.redis.password}
   datasource:
     url: jdbc:postgresql://sangwon7242-db-2.internal:5432/app_2025_10_24_prod
     username: postgres

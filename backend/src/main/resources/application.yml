@@ -6,7 +6,6 @@ spring:
   data:
     redis:
       port: 26379
-      password: sbsst123414
   profiles:
     active: dev
     include: secret
