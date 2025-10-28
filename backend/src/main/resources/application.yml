@@ -5,6 +5,7 @@ spring:
     name: backend
   data:
     redis:
+      port: 26379
       password: sbsst123414
   profiles:
     active: dev
