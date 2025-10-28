@@ -52,3 +52,5 @@ custom:
     frontUrl: "${custom.dev.frontUrl}"
     backUrl: "${custom.dev.backUrl}"
     name: APP2
+  genFile:
+    dirPath: c:/spring-temp/app2_dev
