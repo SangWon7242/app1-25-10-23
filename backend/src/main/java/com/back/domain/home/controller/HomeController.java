@@ -38,7 +38,7 @@ public class HomeController {
     // log.info("Runs in any environment");
     log.debug("Run in dev/prod environments");
 
-    return "main(version : 0.0.1), hostname : %s".formatted(localHost.getHostName());
+    return "main(version : 0.0.2), hostname : %s".formatted(localHost.getHostName());
   }
 
   @GetMapping("/cookie/{name}/{value}")
