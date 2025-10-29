@@ -6,7 +6,7 @@ spring:
       username: ${custom.prod.redis.username}
       password: ${custom.prod.redis.password}
   datasource:
-    url: jdbc:postgresql://sangwon7242-db-2.internal:5432/app_2025_10_24_prod
+    url: jdbc:postgresql://sangwon7242-db-2.internal:5432/app_2025_10_23_prod
     username: postgres
     password: ${custom.prod.db.password}
     driver-class-name: org.postgresql.Driver
